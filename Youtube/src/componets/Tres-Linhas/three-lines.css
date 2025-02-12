@@ -1,0 +1,33 @@
+
+.linhas {
+    width: 22px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+
+    margin:7px auto ;
+    
+}
+
+.buttonOption{
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 3px;
+    border-radius: 100%;
+    margin: 10px;
+    margin-top: 25px;
+    float: left;
+
+}
+
+.buttonOption:hover {
+
+    background-color: rgba(104, 104, 104, 0.473);
+    cursor: pointer;
+
+}
+
+ul li{
+    color: white;
+}

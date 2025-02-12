@@ -1,0 +1,16 @@
+
+body {
+  margin: 0;
+  display: flex;
+}
+header{
+  background-color: black;
+  width: 100vw;
+  height: 56px;
+}
+linhas {
+  width: 5px;
+  height: 2px;
+  background-color: white;
+  
+}
