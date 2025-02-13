@@ -1,8 +1,8 @@
 // import { useState } from 'react'
 
-import ButtonOp from './componets/Tres-Linhas/three-lines.jsx'
+import ButtonOp from './componets/three-lines/three-lines.jsx'
 import LogoYouTube from './componets/logo/logo.jsx'
-import BarraDePesquisa from './componets/Barra-de-Pesquisa/BarraPesquisa.jsx'
+import BarraDePesquisa from './componets/search-bar/search-bar.jsx'
 import house from './assets/home.png'
 import shorts from './assets/shorts.png'
 import inscricoes from './assets/Inscricoes.png'
@@ -25,22 +25,23 @@ function App() {
       </header>
       <div className='menu'>
         <ul>
-          <li>
+
+          <li className='button'>
             <img src={house}></img>
             <a>Inicio</a>
           </li>
 
-          <li>
+          <li className='button'>
             <img src={shorts}></img>
             <a>Short</a>
           </li>
 
-          <li>
+          <li className='button'>
             <img src={inscricoes}></img>
             <a>Inscriçoes</a>
           </li>
 
-          <li>
+          <li className='button'>
             <img src={perfil} alt="" />
             <a>Você</a>
           </li>
